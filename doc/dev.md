@@ -20,7 +20,12 @@ agreement, the PR will be merged.
 ### Tests
 
 Each bug fix, change or new feature should be tested well to prevent future
-regressions.
+regressions.  To run the test suite under various platforms, use the scripts
+provided in `scripts/test/*`.  You will need a JVM, the [clojure tools](https://clojure.org/guides/install_clojure),
+and [Leiningen](https://leiningen.org/) installed as a base minimum.  The
+native tests should be executed with [GraalVM](https://www.graalvm.org/downloads/).
+To run the CLJS tests you will also need [node JS](https://nodejs.org/en/download/)
+installed.
 
 ### Force-push
 
